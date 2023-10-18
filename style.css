@@ -87,5 +87,28 @@ nav a:hover{
     z-index: -1;
 }
 
+.subSection{
+    margin-left: 300px;
+}
+
+#experiencia{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.subSection h3{
+    font-size: 3em;
+    color: #c9c7c7;
+}
+
+#experiencia ul{
+    list-style: none;
+}
+
+#experiencia a{
+    text-decoration: none;
+    color: #000;
+}
 /**.rotate {
     transform: rotate(45deg); /* Equal to rotateZ(45deg) */
