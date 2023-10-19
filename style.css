@@ -95,6 +95,8 @@ nav a:hover{
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    width: 320px;
+    margin-left: 200px;
 }
 
 .subSection h3{
@@ -109,6 +111,30 @@ nav a:hover{
 #experiencia a{
     text-decoration: none;
     color: #000;
+}
+
+#experiencia h4{
+    display: inline;
+    font-weight: 100;
+}
+
+#experiencia h5{
+    font-size: 1em;
+}
+
+.linkEmpresa{
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.linkEmpresa:after{
+    content: ' |';
+    color: #F7AFFF;
+}
+
+.subParagrafo{
+    
 }
 /**.rotate {
     transform: rotate(45deg); /* Equal to rotateZ(45deg) */
