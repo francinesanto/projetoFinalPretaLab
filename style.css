@@ -94,6 +94,7 @@ nav a:hover{
 #experiencia{
     margin-top: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 320px;
     margin-left: 200px;
@@ -133,8 +134,51 @@ nav a:hover{
     color: #F7AFFF;
 }
 
-.subParagrafo{
-    
+.pinVenturus{
+   position: absolute;
+   margin-left: 350px;
+   margin-top: -140px;
 }
+
+.pinVenturus h5{
+    padding: 10px;
+    background-color: #F7AFFF;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.kings{
+    margin-top: 100px;
+}
+
+.pinKings{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -105px;
+ }
+
+.pinKings h5{
+    padding: 10px;
+    background-color: #F7AFFF;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.eventos{
+    margin-top: 50px;
+}
+
+.pinEventos{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -115px;
+}
+
+.pinEventos h5{
+    padding: 10px;
+    background-color: #F7AFFF;
+    border-radius: 5px;
+    margin: 5px;
+}    
 /**.rotate {
     transform: rotate(45deg); /* Equal to rotateZ(45deg) */
