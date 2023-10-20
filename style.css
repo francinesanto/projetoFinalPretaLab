@@ -90,38 +90,47 @@ nav a:hover{
 }
 
 .subSection{
-    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: -150px;
 }
 
-#experiencia{
-    margin-top: 50px;
+.subSection1{
+    display: flex;
+    justify-content: center;
+    margin-left: -150px;
+    margin-top: 100px;
+}
+
+#experiencia, #formacao{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 320px;
-    margin-left: 200px;
 }
 
-.subSection h3{
+.subSection h3, .subSection1 h3{
     font-size: 3em;
     color: #c9c7c7;
 }
 
-#experiencia ul{
+#experiencia ul, #formacao ul{
     list-style: none;
 }
 
-#experiencia a{
+#experiencia a, #formacao a{
     text-decoration: none;
     color: #000;
 }
 
-#experiencia h4{
+#experiencia h4, #formacao h4{
     display: inline;
     font-weight: 100;
 }
 
-#experiencia h5{
+#experiencia h5, #formacao h5{
+    margin-top: 2px;
     font-size: 1em;
 }
 
