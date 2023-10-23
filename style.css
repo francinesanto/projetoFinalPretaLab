@@ -47,7 +47,6 @@ main{
 
 #intro{
     display: flex;
-    margin: 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -57,12 +56,8 @@ main{
     width: 300px;
 }
 
-.introText{
-    margin: 30px;
-}
-
 .introText h1{
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -71,9 +66,10 @@ main{
     text-align: center
 }
 
-.introText p{
-    font-size: bold;
+#intro p {
+    margin-top: 20px;
 }
+
 
 #quadradoPink1{
     width: 400px;
@@ -90,7 +86,7 @@ main{
 
 .quadrados{
     position: absolute;
-    margin-top: 400px;
+    margin-top: 300px;
     z-index: -1;
 }
 
@@ -100,32 +96,32 @@ main{
     margin: 50px;
 }
 
-#experiencia, #formacao{
+section{ 
     margin-top: 100px;
-    width: 450px;
+    width: 500px;
+
 }
 
-.subSection h3, .subSection1 h3{
+h3{
     font-size: 3em;
     color: #c9c7c7;
 }
 
-#experiencia ul, #formacao ul{
+ul{
     margin-right: 150px;
     list-style: none;
 }
 
-#experiencia a, #formacao a{
+a{
     text-decoration: none;
     color: #000;
 }
 
-#experiencia h4, #formacao h4{
-    display: inline;
+h4{
     font-weight: 100;
 }
 
-#experiencia h5, #formacao h5{
+h5{
     margin-top: 2px;
     font-size: 1em;
 }
@@ -144,7 +140,7 @@ main{
 .pinVenturus{
    position: absolute;
    margin-left: 350px;
-   margin-top: -140px;
+   margin-top: -150px;
 }
 
 .pinVenturus h5{
@@ -161,7 +157,7 @@ main{
 .pinKings{
     position: absolute;
     margin-left: 350px;
-    margin-top: -105px;
+    margin-top: -115px;
  }
 
 .pinKings h5{
@@ -187,5 +183,31 @@ main{
     border-radius: 5px;
     margin: 5px;
 }    
+
+#cursos h4{
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#cursos h4::after{
+    content: ' |';
+    color: #F7AFFF;
+}
+
+#cursos h5{
+    font-weight: 100;
+}
+
+#cursos a{
+    margin-top: 2px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#cursos li{
+    margin-top: 20px;
+}
+
 /**.rotate {
     transform: rotate(45deg); /* Equal to rotateZ(45deg) */
