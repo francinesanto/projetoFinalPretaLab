@@ -209,5 +209,32 @@ h5{
     margin-top: 20px;
 }
 
+footer{
+    background-color: #F7AFFF;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #FCE0FF;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 20px;
+    padding: 20px
+
+}
+
+.icons a  {
+    color: #fff;
+    
+}
+
 /**.rotate {
     transform: rotate(45deg); /* Equal to rotateZ(45deg) */
